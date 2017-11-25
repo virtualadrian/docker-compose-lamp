@@ -24,7 +24,7 @@ services:
             # - memcached
             # - solr            
         volumes:
-            - ./crontasks.txt:/home/crontasks.txt
+            #- ./crontasks.txt:/home/crontasks.txt
             - ./htdocs:/var/www/localhost/htdocs
             # Attach sample configs if necessary.            
             # - ./docker-runtime/php7:/temp_configs_dir/php7            
